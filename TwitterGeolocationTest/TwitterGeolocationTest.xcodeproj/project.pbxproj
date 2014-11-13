@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50AA12E11A14F5050014332F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA12E01A14F5050014332F /* main.m */; };
+		50AA12E41A14F5050014332F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA12E31A14F5050014332F /* AppDelegate.m */; };
+		50AA12E71A14F5050014332F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA12E61A14F5050014332F /* ViewController.m */; };
+		50AA12EA1A14F5050014332F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AA12E81A14F5050014332F /* Main.storyboard */; };
+		50AA12EC1A14F5050014332F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AA12EB1A14F5050014332F /* Images.xcassets */; };
+		50AA12EF1A14F5050014332F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AA12ED1A14F5050014332F /* LaunchScreen.xib */; };
+		50AA12FB1A14F5050014332F /* TwitterGeolocationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA12FA1A14F5050014332F /* TwitterGeolocationTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50AA12F51A14F5050014332F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50AA12D31A14F5050014332F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50AA12DA1A14F5050014332F;
+			remoteInfo = TwitterGeolocationTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50AA12DB1A14F5050014332F /* TwitterGeolocationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterGeolocationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AA12DF1A14F5050014332F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50AA12E01A14F5050014332F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50AA12E21A14F5050014332F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50AA12E31A14F5050014332F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50AA12E51A14F5050014332F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50AA12E61A14F5050014332F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50AA12E91A14F5050014332F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50AA12EB1A14F5050014332F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50AA12EE1A14F5050014332F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		50AA12F41A14F5050014332F /* TwitterGeolocationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterGeolocationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AA12F91A14F5050014332F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50AA12FA1A14F5050014332F /* TwitterGeolocationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterGeolocationTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50AA12D81A14F5050014332F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AA12F11A14F5050014332F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50AA12D21A14F5050014332F = {
+			isa = PBXGroup;
+			children = (
+				50AA12DD1A14F5050014332F /* TwitterGeolocationTest */,
+				50AA12F71A14F5050014332F /* TwitterGeolocationTestTests */,
+				50AA12DC1A14F5050014332F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50AA12DC1A14F5050014332F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50AA12DB1A14F5050014332F /* TwitterGeolocationTest.app */,
+				50AA12F41A14F5050014332F /* TwitterGeolocationTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50AA12DD1A14F5050014332F /* TwitterGeolocationTest */ = {
+			isa = PBXGroup;
+			children = (
+				50AA12E21A14F5050014332F /* AppDelegate.h */,
+				50AA12E31A14F5050014332F /* AppDelegate.m */,
+				50AA12E51A14F5050014332F /* ViewController.h */,
+				50AA12E61A14F5050014332F /* ViewController.m */,
+				50AA12E81A14F5050014332F /* Main.storyboard */,
+				50AA12EB1A14F5050014332F /* Images.xcassets */,
+				50AA12ED1A14F5050014332F /* LaunchScreen.xib */,
+				50AA12DE1A14F5050014332F /* Supporting Files */,
+			);
+			path = TwitterGeolocationTest;
+			sourceTree = "<group>";
+		};
+		50AA12DE1A14F5050014332F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50AA12DF1A14F5050014332F /* Info.plist */,
+				50AA12E01A14F5050014332F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50AA12F71A14F5050014332F /* TwitterGeolocationTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				50AA12FA1A14F5050014332F /* TwitterGeolocationTestTests.m */,
+				50AA12F81A14F5050014332F /* Supporting Files */,
+			);
+			path = TwitterGeolocationTestTests;
+			sourceTree = "<group>";
+		};
+		50AA12F81A14F5050014332F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50AA12F91A14F5050014332F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50AA12DA1A14F5050014332F /* TwitterGeolocationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AA12FE1A14F5050014332F /* Build configuration list for PBXNativeTarget "TwitterGeolocationTest" */;
+			buildPhases = (
+				50AA12D71A14F5050014332F /* Sources */,
+				50AA12D81A14F5050014332F /* Frameworks */,
+				50AA12D91A14F5050014332F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitterGeolocationTest;
+			productName = TwitterGeolocationTest;
+			productReference = 50AA12DB1A14F5050014332F /* TwitterGeolocationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50AA12F31A14F5050014332F /* TwitterGeolocationTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AA13011A14F5050014332F /* Build configuration list for PBXNativeTarget "TwitterGeolocationTestTests" */;
+			buildPhases = (
+				50AA12F01A14F5050014332F /* Sources */,
+				50AA12F11A14F5050014332F /* Frameworks */,
+				50AA12F21A14F5050014332F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50AA12F61A14F5050014332F /* PBXTargetDependency */,
+			);
+			name = TwitterGeolocationTestTests;
+			productName = TwitterGeolocationTestTests;
+			productReference = 50AA12F41A14F5050014332F /* TwitterGeolocationTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50AA12D31A14F5050014332F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = okundotio;
+				TargetAttributes = {
+					50AA12DA1A14F5050014332F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					50AA12F31A14F5050014332F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 50AA12DA1A14F5050014332F;
+					};
+				};
+			};
+			buildConfigurationList = 50AA12D61A14F5050014332F /* Build configuration list for PBXProject "TwitterGeolocationTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50AA12D21A14F5050014332F;
+			productRefGroup = 50AA12DC1A14F5050014332F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50AA12DA1A14F5050014332F /* TwitterGeolocationTest */,
+				50AA12F31A14F5050014332F /* TwitterGeolocationTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50AA12D91A14F5050014332F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AA12EA1A14F5050014332F /* Main.storyboard in Resources */,
+				50AA12EF1A14F5050014332F /* LaunchScreen.xib in Resources */,
+				50AA12EC1A14F5050014332F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AA12F21A14F5050014332F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50AA12D71A14F5050014332F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AA12E71A14F5050014332F /* ViewController.m in Sources */,
+				50AA12E41A14F5050014332F /* AppDelegate.m in Sources */,
+				50AA12E11A14F5050014332F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AA12F01A14F5050014332F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AA12FB1A14F5050014332F /* TwitterGeolocationTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50AA12F61A14F5050014332F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50AA12DA1A14F5050014332F /* TwitterGeolocationTest */;
+			targetProxy = 50AA12F51A14F5050014332F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50AA12E81A14F5050014332F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50AA12E91A14F5050014332F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50AA12ED1A14F5050014332F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50AA12EE1A14F5050014332F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50AA12FC1A14F5050014332F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50AA12FD1A14F5050014332F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50AA12FF1A14F5050014332F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwitterGeolocationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50AA13001A14F5050014332F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwitterGeolocationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50AA13021A14F5050014332F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TwitterGeolocationTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwitterGeolocationTest.app/TwitterGeolocationTest";
+			};
+			name = Debug;
+		};
+		50AA13031A14F5050014332F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TwitterGeolocationTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwitterGeolocationTest.app/TwitterGeolocationTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50AA12D61A14F5050014332F /* Build configuration list for PBXProject "TwitterGeolocationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AA12FC1A14F5050014332F /* Debug */,
+				50AA12FD1A14F5050014332F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50AA12FE1A14F5050014332F /* Build configuration list for PBXNativeTarget "TwitterGeolocationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AA12FF1A14F5050014332F /* Debug */,
+				50AA13001A14F5050014332F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50AA13011A14F5050014332F /* Build configuration list for PBXNativeTarget "TwitterGeolocationTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AA13021A14F5050014332F /* Debug */,
+				50AA13031A14F5050014332F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50AA12D31A14F5050014332F /* Project object */;
+}

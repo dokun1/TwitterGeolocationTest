@@ -14,6 +14,8 @@
 		50AA12EC1A14F5050014332F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AA12EB1A14F5050014332F /* Images.xcassets */; };
 		50AA12EF1A14F5050014332F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AA12ED1A14F5050014332F /* LaunchScreen.xib */; };
 		50AA12FB1A14F5050014332F /* TwitterGeolocationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA12FA1A14F5050014332F /* TwitterGeolocationTestTests.m */; };
+		50AA13061A14F6C40014332F /* ValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA13051A14F6C40014332F /* ValueTransformer.m */; };
+		50AA13091A14F6D00014332F /* TwitterConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA13081A14F6D00014332F /* TwitterConnectionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		50AA12F41A14F5050014332F /* TwitterGeolocationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterGeolocationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AA12F91A14F5050014332F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50AA12FA1A14F5050014332F /* TwitterGeolocationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterGeolocationTestTests.m; sourceTree = "<group>"; };
+		50AA13041A14F6C40014332F /* ValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueTransformer.h; sourceTree = "<group>"; };
+		50AA13051A14F6C40014332F /* ValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueTransformer.m; sourceTree = "<group>"; };
+		50AA13071A14F6D00014332F /* TwitterConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterConnectionManager.h; sourceTree = "<group>"; };
+		50AA13081A14F6D00014332F /* TwitterConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterConnectionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				50AA12E31A14F5050014332F /* AppDelegate.m */,
 				50AA12E51A14F5050014332F /* ViewController.h */,
 				50AA12E61A14F5050014332F /* ViewController.m */,
+				50AA13041A14F6C40014332F /* ValueTransformer.h */,
+				50AA13051A14F6C40014332F /* ValueTransformer.m */,
+				50AA13071A14F6D00014332F /* TwitterConnectionManager.h */,
+				50AA13081A14F6D00014332F /* TwitterConnectionManager.m */,
 				50AA12E81A14F5050014332F /* Main.storyboard */,
 				50AA12EB1A14F5050014332F /* Images.xcassets */,
 				50AA12ED1A14F5050014332F /* LaunchScreen.xib */,
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				50AA12E71A14F5050014332F /* ViewController.m in Sources */,
+				50AA13091A14F6D00014332F /* TwitterConnectionManager.m in Sources */,
+				50AA13061A14F6C40014332F /* ValueTransformer.m in Sources */,
 				50AA12E41A14F5050014332F /* AppDelegate.m in Sources */,
 				50AA12E11A14F5050014332F /* main.m in Sources */,
 			);

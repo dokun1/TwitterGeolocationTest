@@ -13,6 +13,6 @@
 
 + (instancetype)sharedTransformer;
 
-- (void)getTweetsForLocation:(CLLocation *)location withSuccessBlock:(void (^)(NSDictionary *tweetDict))successBlock failure:(void (^)(NSError *error))failureBlock;
+- (void)getTweetsForLocation:(CLLocation *)location withSuccessBlock:(void (^)(NSArray *tweetAnnotationArray))successBlock failure:(void (^)(NSError *error))failureBlock;
 
 @end

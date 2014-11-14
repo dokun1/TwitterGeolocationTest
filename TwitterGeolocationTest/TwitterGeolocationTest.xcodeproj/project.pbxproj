@@ -16,6 +16,10 @@
 		50AA12FB1A14F5050014332F /* TwitterGeolocationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA12FA1A14F5050014332F /* TwitterGeolocationTestTests.m */; };
 		50AA13061A14F6C40014332F /* ValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA13051A14F6C40014332F /* ValueTransformer.m */; };
 		50AA13091A14F6D00014332F /* TwitterConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA13081A14F6D00014332F /* TwitterConnectionManager.m */; };
+		50C827EA1A1581BB00DDCA4A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C827E91A1581BB00DDCA4A /* MapKit.framework */; };
+		50C827EC1A1581C000DDCA4A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C827EB1A1581C000DDCA4A /* CoreLocation.framework */; };
+		50C827EF1A15848600DDCA4A /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C827EE1A15848600DDCA4A /* Tweet.m */; };
+		50C827F21A15FFE800DDCA4A /* TwitterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C827F11A15FFE800DDCA4A /* TwitterAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,12 @@
 		50AA13051A14F6C40014332F /* ValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueTransformer.m; sourceTree = "<group>"; };
 		50AA13071A14F6D00014332F /* TwitterConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterConnectionManager.h; sourceTree = "<group>"; };
 		50AA13081A14F6D00014332F /* TwitterConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterConnectionManager.m; sourceTree = "<group>"; };
+		50C827E91A1581BB00DDCA4A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		50C827EB1A1581C000DDCA4A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		50C827ED1A15848600DDCA4A /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		50C827EE1A15848600DDCA4A /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		50C827F01A15FFE800DDCA4A /* TwitterAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterAnnotation.h; sourceTree = "<group>"; };
+		50C827F11A15FFE800DDCA4A /* TwitterAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C827EC1A1581C000DDCA4A /* CoreLocation.framework in Frameworks */,
+				50C827EA1A1581BB00DDCA4A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +81,8 @@
 		50AA12D21A14F5050014332F = {
 			isa = PBXGroup;
 			children = (
+				50C827EB1A1581C000DDCA4A /* CoreLocation.framework */,
+				50C827E91A1581BB00DDCA4A /* MapKit.framework */,
 				50AA12DD1A14F5050014332F /* TwitterGeolocationTest */,
 				50AA12F71A14F5050014332F /* TwitterGeolocationTestTests */,
 				50AA12DC1A14F5050014332F /* Products */,
@@ -95,6 +109,10 @@
 				50AA13051A14F6C40014332F /* ValueTransformer.m */,
 				50AA13071A14F6D00014332F /* TwitterConnectionManager.h */,
 				50AA13081A14F6D00014332F /* TwitterConnectionManager.m */,
+				50C827ED1A15848600DDCA4A /* Tweet.h */,
+				50C827EE1A15848600DDCA4A /* Tweet.m */,
+				50C827F01A15FFE800DDCA4A /* TwitterAnnotation.h */,
+				50C827F11A15FFE800DDCA4A /* TwitterAnnotation.m */,
 				50AA12E81A14F5050014332F /* Main.storyboard */,
 				50AA12EB1A14F5050014332F /* Images.xcassets */,
 				50AA12ED1A14F5050014332F /* LaunchScreen.xib */,
@@ -230,8 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				50AA12E71A14F5050014332F /* ViewController.m in Sources */,
+				50C827F21A15FFE800DDCA4A /* TwitterAnnotation.m in Sources */,
 				50AA13091A14F6D00014332F /* TwitterConnectionManager.m in Sources */,
 				50AA13061A14F6C40014332F /* ValueTransformer.m in Sources */,
+				50C827EF1A15848600DDCA4A /* Tweet.m in Sources */,
 				50AA12E41A14F5050014332F /* AppDelegate.m in Sources */,
 				50AA12E11A14F5050014332F /* main.m in Sources */,
 			);
@@ -424,6 +444,7 @@
 				50AA13001A14F5050014332F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50AA13011A14F5050014332F /* Build configuration list for PBXNativeTarget "TwitterGeolocationTestTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +453,7 @@
 				50AA13031A14F5050014332F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

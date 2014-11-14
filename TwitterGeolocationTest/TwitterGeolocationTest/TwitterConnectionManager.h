@@ -10,4 +10,6 @@
 
 @interface TwitterConnectionManager : NSObject
 
+- (void)getTweetJSONForLongitude:(float)longitude andLatitude:(float)latitude withSuccess:(void (^)(NSArray *jsonArray))successBlock failure:(void (^)(NSError *error))failureBlock;
+
 @end
